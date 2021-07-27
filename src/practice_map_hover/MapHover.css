@@ -1,0 +1,27 @@
+.hover_button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover_num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hover_circle{
+  display: flex;
+  width: 15px;
+  height: 3px;
+}
+
+.hover_num:hover + .hover_circle{
+  background-color: cornflowerblue;
+}
+
